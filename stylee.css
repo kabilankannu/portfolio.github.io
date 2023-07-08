@@ -400,7 +400,24 @@ grid-column-gap:15px ;
     text-align:center;
   }
 }
+@media only screen and (max-width: 600px) {
 
+  .about-container about-text{
+    /* display:flex; */
+    width: 100%;
+  }
+  .about-text p{
+    font-size: var(--p-font);
+    font-weight: 500;
+    text-align: justify;
+    width:50%;
+}
+.information{
+  /* display: flex; */
+  width:50%;
+}
+  
+}
 
 
 
